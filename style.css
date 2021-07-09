@@ -1,0 +1,77 @@
+body {
+    background-image: url(img/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -9999;
+
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+.content-first {
+    height: 100vh;
+    overflow: auto;
+}
+
+.avatar {
+    margin-top: 25vh;
+    box-shadow: 1px 1px 10px black;
+    opacity: 0;
+}
+
+.title,
+.lead {
+    text-shadow: 1px 1px 10px black;
+
+}
+
+
+.navbar {
+    opacity: 0;
+    transform: translateY(-40px);
+}
+
+.nav-button {
+    width: 7rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-family: 'Roboto',
+        sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.jumbotron img {
+    opacity: 1;
+}
+
+.frame {
+    width: 90%;
+    border: 5px solid white;
+}
+
+iframe {
+    height: 600px;
+}
+
+.project h1 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projectbtn {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(-40px);
+
+}
+
+
+
+
+/* .content-animate {
+    transform: translate(0, -100vh);
+    transition: 10s;
+} */
